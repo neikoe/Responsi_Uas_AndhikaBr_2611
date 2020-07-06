@@ -8,10 +8,10 @@ namespace ProjectProduk
     public class Produk
     {
 
-        public string KodeProduk { get; set; }
-            public string NamaProduk { get; set; }
-                public double HargaBeli { get; set; }
-                    public double HargaJual { get; set; }
+        public string productcode { get; set; }
+            public string productname { get; set; }
+                public double productprice { get; set; }
+                    public double sell { get; set; }
 
     }
 }
